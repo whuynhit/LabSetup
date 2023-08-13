@@ -8,13 +8,13 @@ This is how the lab environment for Active Directory and SCCM is setup on a host
   - 50GB for Client
   - 150GB for SCCM Server
 
-Using VirtualBox from Oracle and official evaluation OS images for Windows Server 22 and Windows 10 Enterprise, three virtual machines are named as follows:
+Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and official evaluation OS images for [Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022) and [Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise), three virtual machines are named as follows:
 
-Windows Server 2022
+[Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
   -  WS22DC - Domain Controller
   - WS22SCCM - SCCM Server
 
-Windows 10 Enterprise
+[Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)
 - Client1 - Client Endpoint under Active Directory and SCCM administration
 </br>
 
