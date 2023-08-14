@@ -216,7 +216,7 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   ![WS22SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/3.png)
 
   <details>
-  <summary>Installing Windows Assessment and Deployment Kit</summary>
+  <summary><i>Installing Windows Assessment and Deployment Kit</i></summary>
     
   ![ADK](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20ADK/1.png)
   ![ADK](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20ADK/2.png)
@@ -225,65 +225,114 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   </details>
 
   <details>
-  <summary>Creating the System Management Container</summary>
+  <summary><i>Creating the System Management Container</i></summary>
     
-  ![SMC]()
-  ![SMC]()
-  ![SMC]()  
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/1.png)
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/2.png)
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/3.png)
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/4.png)
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/5.png)
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/6.png)
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/7.png)
+  ![SMC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/System%20Management%20Container/8.png)
   
   </details>
 
   <details>
-  <summary>Creating Service Accounts</summary>
+  <summary><i>Creating Service Accounts</i></summary>
     
-  ![SVC]()
-  ![SVC]()
-  ![SVC]()  
+  ![SVC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Creating%20Service%20Accounts/1.png)
+  ![SVC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Creating%20Service%20Accounts/2.png)
+  ![SVC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Creating%20Service%20Accounts/3.png)
+  ![SVC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Creating%20Service%20Accounts/4.png)
+  ![SVC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Creating%20Service%20Accounts/5%20WS22SCCM.png)
+  ![SVC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Creating%20Service%20Accounts/6.png)
   
   </details>
 
   <details>
-  <summary>Extending Active Directory Schema</summary>
+  <summary><i>Extending Active Directory Schema</i></summary>
     
-  ![Extd]()
-  ![Extd]()
-  ![Extd]()  
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Extending%20Active%20Directory%20Schema/1.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Extending%20Active%20Directory%20Schema/2%20WS22SCCM.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Extending%20Active%20Directory%20Schema/3.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Extending%20Active%20Directory%20Schema/4%20WS22DC.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Extending%20Active%20Directory%20Schema/5%20WS22DC%20default%20admin%20account.png)
   
   </details>
 
   <details>
-  <summary>Configure Windows Firewall with Group Policy for SCCM</summary>
+  <summary><i>Configure Windows Firewall with Group Policy for SCCM</i></summary>
     
-  ![Extd]()
-  ![Extd]()
-  ![Extd]()  
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/1.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/2.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/3.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/4.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/5.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/6.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/7.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/8.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/9.png)
+  ![Extd](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Configure%20Windows%20Firewall%20with%20Group%20Policy%20for%20SCCM/10.png)
   
   </details>
 
   <details>
-  <summary>Installing SQL Server</summary>
+  <summary><i>Installing SQL Server</i></summary>
     
-  ![SQLS]()
-  ![SQLS]()
-  ![SQLS]()  
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/1.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/2.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/3.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/4.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/5.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/6.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/7.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/8.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/9.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/10.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/11.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/12.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/13.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/14.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/15.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/16.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/17.png)
+  ![SQLS](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SQL%20Server%2C%20Reporting%20Services%2C%20and%20SSMS/18.png)
   
   </details>
 
   <details>
-  <summary>Installing the SCCM Dependent Server Roles</summary>
+  <summary><i>Installing the SCCM Dependent Server Roles</i></summary>
     
-  ![SR]()
-  ![SR]()
-  ![SR]()  
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/1.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/2.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/3.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/4.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/5.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/6.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/7.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/8.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/9.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/10.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/11.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/12.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/13.png)
+  ![SR](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20SCCM%20Dependent%20Server%20Roles/14.png)
   
   </details>
 
   <details>
-  <summary>Installing SCCM </summary>
+  <summary><i>Installing SCCM</i></summary>
     
-  ![SCCM]()
-  ![SCCM]()
-  ![SCCM]()  
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/1.png)
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/2.png)
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/3.png)
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/4.png)
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/5.png)
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/6.png)
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/7.png)
+  ![SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Install%20System%20Center%20Configuration%20Manager/8.png)
+
   
   </details>
   
