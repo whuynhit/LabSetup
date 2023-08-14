@@ -340,5 +340,6 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   ![Client1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3b%20Installing%20and%20Setting%20up%20Client1/19.png)
   Success and done!
   ![Client1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3b%20Installing%20and%20Setting%20up%20Client1/20.png)
+  ![Client1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3b%20Installing%20and%20Setting%20up%20Client1/21.png)
   
 </details>
