@@ -22,10 +22,11 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   <summary><b>Creating VMs</b></summary>
 
   Create three virtual machines like so:
+  
   <details>
   <summary>Domain Controller</summary>
     
-  ![WS22DC 1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/1%20Making%20VM/WS22DC/1.png)
+  ![WS22DC 1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/1%20Making%20VM/WS22DC/1.PNG)
   
   ![WS22DC 2](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/1%20Making%20VM/WS22DC/2.PNG)
   
@@ -151,26 +152,50 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/24.png)
   Pass the prerequisites check and install
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/25.png)
-  In the Server Manager, Tools > Active Directory Users and Computers </br>
-  In your domain, create a new Organizational Unit (OU) </br>
+  In the Server Manager, go to Tools > Active Directory Users and Computers </br>
+  In your domain, create a new Admins Organizational Unit (OU) </br>
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/26.png)
-  
+  Under the new OU, create a new user object
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/27.png)
+  Set a simple password like "Password1" for the new user
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/28.png)
+  
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/29.png)
+  Open properties window of the newly created user and navigate to the "Members of" tab and click "Add..."
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/30.png)
+  Type "Domain Admins" and click "Check Names", click OK
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/31.png)
+  
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/32.png)
+  Log Out and sign in with the newly created admin user account
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/33.png)
+  In the Server Manager, go to Tools > Routing and Remote Access </br>
+  Right click the local server and select "Configure and Enable Routing and Remote Access"
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/34.png)
+  Setup Wizard should open up and click "Next"
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/35.png)
+  Select "Network Address Translation (NAT)" and click Next
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/36.png)
+  Select the interface that is the dynamically assigned an IP address to access the internet </br>
+  In this case it's the one named "Ethernet" </br>
+  Click Next and then Finish </br>
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/37.png)
+  In the Server Manager, go to Tools > DHCP </br>
+  Expand the domain and under IPv4, right click and select "New Scope..." and click Next </br>
+  Name your IPv4 address scope </br>
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/38.png)
+  Define your IPv4 address scope and subnet mask </br>
+  Click Next </br>
+  Skip ip address Exclusions and Lease Duration </br>
+  Select "Configure these DHCP options now"
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/39.png)
+  Add the statically assigned IPv4 address for the Internal network adapter as the Router (Default Gateway)
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/40.png)
+  Active this scope now
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/41.png)
+  Finish
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/42.png)
+  In IPv4 Server Options, make sure Router is checked and and the IPv4 address of the internal interface has been added 
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/43.png)
     
 </details>
@@ -179,8 +204,94 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
 
 <details>
   <summary><b>WS22SCCM</b></summary>
-  Mount the OS image
+  After following the same steps as the domain controller in mounting the OS image and finish installing Windows Server 2022, </br>
+  Open Settings>Network & Internet, Select "Change adapter options" </br>
+  Open properties window for the "Ethernet" adapter, and select Internet Protocol Version 4 </br>
+  Assign it with the following:</br>
+  IP address: 192.168.0.2 </br>
+  Subnet mask: 255.255.255.0 </br>
+  Default gateway: 192.168.0.1 </br>
+  Preferred DNS Server: 192.168.0.1 </br>
+  Click OK
+
+  ![WS22SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/1.png)
+  Open Settings>System>About and clicking "Rename this PC (Advanced)" under Related Settings should open System Properties</br>
+  In the System Properties window, click "Change..." should open the Computer Name/Domain Change window that will allow you to change the PC name and join the client PC to a domain using domain administrator credentials </br>
+  ![WS22SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/2.png)
+  Computer name changed and domain joined
+  ![WS22SCCM](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/3.png)
+
+  <details>
+  <summary>Installing Windows Assessment and Deployment Kit</summary>
+    
+  ![ADK]()
+  ![ADK]()
+  ![ADK]()  
   
+  </details>
+
+  <details>
+  <summary>Creating the System Management Container</summary>
+    
+  ![SMC]()
+  ![SMC]()
+  ![SMC]()  
+  
+  </details>
+
+  <details>
+  <summary>Creating Service Accounts</summary>
+    
+  ![SVC]()
+  ![SVC]()
+  ![SVC]()  
+  
+  </details>
+
+  <details>
+  <summary>Extending Active Directory Schema</summary>
+    
+  ![Extd]()
+  ![Extd]()
+  ![Extd]()  
+  
+  </details>
+
+  <details>
+  <summary>Configure Windows Firewall with Group Policy for SCCM</summary>
+    
+  ![Extd]()
+  ![Extd]()
+  ![Extd]()  
+  
+  </details>
+
+  <details>
+  <summary>Installing SQL Server</summary>
+    
+  ![SQLS]()
+  ![SQLS]()
+  ![SQLS]()  
+  
+  </details>
+
+  <details>
+  <summary>Installing the SCCM Dependent Server Roles</summary>
+    
+  ![SR]()
+  ![SR]()
+  ![SR]()  
+  
+  </details>
+
+  <details>
+  <summary>Installing SCCM </summary>
+    
+  ![SCCM]()
+  ![SCCM]()
+  ![SCCM]()  
+  
+  </details>
   
 </details>
 
