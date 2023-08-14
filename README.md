@@ -1,4 +1,4 @@
-# Lab Setup
+<h1><b>Lab Setup</b></h1>
 
 This is how the lab environment for Active Directory and SCCM is setup on a host machine that runs with the following hardware specifications:</br>
 - CPU - AMD Ryzen 7 3700X, virtualization enabled via BIOS/UEFI
@@ -19,12 +19,12 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
 </br>
 
 <details>
-  <summary><b>Creating VMs</b></summary>
+  <summary><h2><b>Creating VMs</b></h2></summary>
 
   Create three virtual machines like so:
   
   <details>
-  <summary>Domain Controller</summary>
+  <summary><i>Domain Controller</i></summary>
     
   ![WS22DC 1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/1%20Making%20VM/WS22DC/1.PNG)
   
@@ -37,7 +37,7 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   </details>
 
   <details>
-  <summary>SCCM Server</summary>
+  <summary><i>SCCM Server</i></summary>
     
   ![WS22SCCM 1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/1%20Making%20VM/WS22SCCM/1.PNG)
   
@@ -50,7 +50,7 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   </details>
 
   <details>
-  <summary>Client</summary>
+  <summary><i>Client</i></summary>
     
   ![Client1 1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/1%20Making%20VM/Client1/1.PNG)
   
@@ -64,10 +64,8 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   
 </details>
 
-</br>
-
 <details>
-  <summary><b>VirtualBox Network settings</b></summary>
+  <summary><h2><b>VirtualBox Network settings</b></h2></summary>
   In Virtual Box, set the 1st network adapter attached to "NAT" for the Domain Controller VM
   
   ![1st Machines](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/2%20VM%20Network%20Settings/1.PNG)
@@ -81,10 +79,8 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   
 </details>
 
-</br>
-
 <details>
-  <summary><b>WS22DC</b></summary>
+  <summary><h2><b>WS22DC - Domain Controller</b></h2></summary>
   Mount the OS image
   
   ![WS22DC](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3%20Installing%20and%20Setting%20up%20WS22DC/1.PNG) </br>
@@ -200,10 +196,8 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
     
 </details>
 
-</br>
-
 <details>
-  <summary><b>WS22SCCM</b></summary>
+  <summary><h2><b>WS22SCCM - SCCM Server</b></h2></summary>
   After following the same steps as the domain controller in mounting the OS image and finish installing Windows Server 2022, </br>
   Open Settings>Network & Internet, Select "Change adapter options" </br>
   Open properties window for the "Ethernet" adapter, and select Internet Protocol Version 4 </br>
@@ -224,9 +218,9 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   <details>
   <summary>Installing Windows Assessment and Deployment Kit</summary>
     
-  ![ADK]()
-  ![ADK]()
-  ![ADK]()  
+  ![ADK](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20ADK/1.png)
+  ![ADK](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20ADK/2.png)
+  ![ADK](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3c%20Installing%20and%20Setting%20up%20WS22SCCM/Installing%20ADK/3.png)  
   
   </details>
 
@@ -295,10 +289,8 @@ Using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle and of
   
 </details>
 
-</br>
-
 <details>
-  <summary><b>Client1</b></summary>
+  <summary><h2><b>Client1</b></h2></summary>
   Mount the OS image
   
   ![Client1](https://github.com/whuynhit/LabSetup/blob/main/Lab%20Setup/3b%20Installing%20and%20Setting%20up%20Client1/1.PNG) </br>
